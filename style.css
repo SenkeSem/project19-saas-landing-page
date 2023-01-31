@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Satoshi-Regular';
+    src: url('Satoshi-Regular.woff2') format('woff2'),
+         url('Satoshi-Regular.woff') format('woff'),
+         url('Satoshi-Regular.ttf') format('truetype');
+         font-weight: 400;
+         font-display: swap;
+         font-style: normal;
+  }
+
 body {
     padding: 0;
     margin: 0;
@@ -14,16 +24,54 @@ body {
     height: 40px;
     left: 135px;
     top: 30px;
-    border: 1px solid red; /* Чтобы выдеть границы*/
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.satoshi {
+    font-family: 'Satoshi-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: rgba(10, 15, 13);
 }
 
 .menu {
     display: flex;
 }
 
+.Platform, .Resources, .Portfolio, .Company {
+    margin: 0 17px 0 17px;
+}
+
+.menu img {
+    margin-left: 4px;
+}
+
 .buttons {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Platform {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Resources {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons button {
+    border: 1px solid #000;
+    border-radius: 40px;
+    width: 128px;
+    height: 40px;
+    background: #FEFEF9;
 }
