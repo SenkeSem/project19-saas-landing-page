@@ -229,4 +229,78 @@ body {
     top: 858px;
     border-top: 1px solid #0A0F0D;
     border-bottom: 1px solid #0A0F0D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-section p {
+    width: 195px;
+    height: 24px;
+    font-size: 24px;
+    line-height: 24px;
+    margin: 44px 0 0 0;
+}
+
+.logo-container {
+    width: 1170px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0 44px 0;
+}
+
+/* Редактирование первой секции с услугами */
+
+.services-01-section {
+    border: 1px solid red;
+    position: absolute;
+    width: 1170px;
+    height: 661px;
+    left: 135px;
+    top: 1182px;
+}
+
+.services-01-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-01-text p {
+    width: 498px;
+    height: 54px;
+    font-size: 54px;
+    line-height: 54px;
+    margin: 0;
+}
+
+.services-01-cards {
+    display: flex;
+    width: 1170px;
+    height: 537px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.card1, .card2, .card3 {
+    border: 1px solid red;
+    width: 370px;
+    height: 537px;
+    border: 1px solid #0A0F0D;
+    border-radius: 14px;
+}
+
+.card1 {
+    background: #EBFFDB;
+}
+
+.card2 {
+    background: #D5E9F8;
+}
+
+.card3 {
+    background: #C5B6F0;
 }
