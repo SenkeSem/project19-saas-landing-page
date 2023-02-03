@@ -254,7 +254,6 @@ body {
 /* Редактирование первой секции с услугами */
 
 .services-01-section {
-    border: 1px solid red;
     position: absolute;
     width: 1170px;
     height: 661px;
@@ -286,11 +285,22 @@ body {
 }
 
 .card1, .card2, .card3 {
-    border: 1px solid red;
     width: 370px;
     height: 537px;
     border: 1px solid #0A0F0D;
     border-radius: 14px;
+}
+
+.services-01-cards h2 {
+    font-size: 34px;
+    line-height: 38px;
+    color: #0A0F0D;
+}
+
+.services-01-cards p {
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(10, 15, 13, 0.8);
 }
 
 .card1 {
@@ -303,4 +313,51 @@ body {
 
 .card3 {
     background: #C5B6F0;
+}
+
+.card1 h2, .card3 h2 {
+    width: 306px;
+    height: 76px;
+    margin: 40px 32px 0 32px;
+}
+
+.card1 p, .card3 p {
+    width: 306px;
+    height: 84px;
+    margin: 16px 32px 0 32px;
+}
+
+.card1 img {
+    margin: 18px 43px 0 43px;
+}
+
+.card2 img {
+    margin: 0 22px 0 26px;
+}
+
+.card2 h2 {
+    width: 306px;
+    height: 76px;
+    margin: 35px 32px 0 32px;
+}
+
+.card2 p {
+    width: 306px;
+    height: 84px;
+    margin: 16px 32px 40px 32px;
+}
+
+.card3 img {
+    margin: 69px 28px 0 28px;
+}
+
+/* Начало вёрстки секции Features 02 Section */
+
+.features-02-section {
+    width: 1170px;
+    height: 1526px;
+    border: 1px solid red;
+    position: absolute;
+    left: 135px;
+    top: 2000px;
 }
