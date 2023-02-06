@@ -10,7 +10,7 @@
          font-style: normal;
   }
 
-  @font-face {
+@font-face {
     font-family: 'Satoshi-Medium';
     src: url('Satoshi-Medium.woff2') format('woff2'),
          url('Satoshi-Medium.woff') format('woff'),
@@ -410,10 +410,35 @@ body {
     margin-top: 3px;
 }
 
+/* Начало редактирования features-cards-box*/
+
 .features-cards-box {
     width: 1170px;
     height: 1262px;
     border: 1px solid green;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.features-cards-box .row1, .features-cards-box .row2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-cards-box .row1 {
+    width: 1170px;
+    height: 616px;
+    margin-bottom: 50px;
+}
+
+.features-cards-box .row2 {
+    width: 1170px;
+}
+
+.sales-data-and-site-performance {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .quick-view {
@@ -423,3 +448,63 @@ body {
     border: 1px solid #0A0F0D;
     border-radius: 14px;
 }
+
+.quick-view h3 {
+    width: 173px;
+    height: 34px;
+    font-size: 34px;
+    line-height: 34px;
+    color: #0A0F0D;
+    margin: 40px 157px 26px 40px;
+}
+
+.quick-view ul {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(10, 15, 13, 0.8);
+}
+
+.quick-view li:first-child {
+    width: 274px;
+    height: 48px;
+}
+
+.quick-view li:last-child {
+    width: 274px;
+    height: 72px;
+}
+
+.sales-data {
+    width: 770px;
+    height: 286px;
+    background: #FFFBA0;
+    border: 1px solid #0A0F0D;
+    border-radius: 14px;
+}
+
+.site-performance {
+    width: 770px;
+    height: 286px;
+    background: #C5B6F0;
+    border: 1px solid #0A0F0D;
+    border-radius: 14px;
+}
+
+.channel-efficiency {
+    width: 570px;
+    height: 596px;
+    background: #D5E9F8;
+    border: 1px solid #0A0F0D;
+    border-radius: 14px;
+}
+
+.interactive {
+    width: 570px;
+    height: 596px;
+    background: #FEF4DB;
+    border: 1px solid #0A0F0D;
+    border-radius: 14px;
+}
+
