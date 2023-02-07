@@ -452,28 +452,45 @@ body {
 .quick-view h3 {
     width: 173px;
     height: 34px;
+    margin: 40px 157px 26px 40px;
+}
+
+.style-h3 {
     font-size: 34px;
     line-height: 34px;
     color: #0A0F0D;
-    margin: 40px 157px 26px 40px;
 }
 
 .quick-view ul {
     margin: 0;
-    padding: 0;
+    padding-left: 60px;
     font-size: 16px;
     line-height: 24px;
     color: rgba(10, 15, 13, 0.8);
 }
 
+.quick-view li {
+    padding-left: 12px;
+}
+
 .quick-view li:first-child {
     width: 274px;
     height: 48px;
+    margin: 0 28px 14px 0;
 }
 
 .quick-view li:last-child {
     width: 274px;
     height: 72px;
+    margin: 0 28px 121px 0;
+}
+
+.quick-view li::marker {
+    content: url(marker/marker1.svg);
+}
+
+.quick-view img {
+    margin-left: 39px;
 }
 
 .sales-data {
@@ -483,6 +500,17 @@ body {
     border: 1px solid #0A0F0D;
     border-radius: 14px;
 }
+
+.sales-data h3 {
+    width: 160px;
+    height: 34px;
+    margin: 39px 264px 26px 46px;
+}
+
+
+
+
+
 
 .site-performance {
     width: 770px;
