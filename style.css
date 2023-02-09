@@ -467,7 +467,7 @@ body {
     color: rgba(10, 15, 13, 0.8);
 }
 
-.quick-view ul, .sales-data ul {
+.quick-view ul, .sales-data ul, .site-performance ul, .channel-efficiency ul, .interactive ul {
     margin: 0;
     padding-left: 60px;
 }
@@ -510,7 +510,7 @@ body {
     margin: 39px 264px 26px 46px;
 }
 
-.sales-data li::marker {
+.sales-data li::marker, .channel-efficiency li::marker {
     content: url(marker/marker2.svg);
 }
 
@@ -538,6 +538,36 @@ body {
     background: #C5B6F0;
     border: 1px solid #0A0F0D;
     border-radius: 14px;
+}
+
+.site-performance h3 {
+    margin: 42px 200px 20px 40px;
+}
+
+.site-performance li {
+    padding-left: 14px;
+}
+
+.site-performance li::marker {
+    content: url(marker/marker3.svg);
+}
+
+.site-performance li:first-child {
+    width: 268px;
+    height: 24px;
+    margin: 0 167px 14px 0;
+}
+
+.site-performance li {
+    width: 324px;
+    height: 48px;
+    margin: 0 111px 14px 0;
+}
+
+.site-performance img {
+    position: absolute;
+    right: 0;
+    top: 628px;
 }
 
 .channel-efficiency {
