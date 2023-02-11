@@ -20,6 +20,16 @@
          font-style: normal;
   }
 
+@font-face {
+    font-family: 'Satoshi-Bold';
+    src: url('Satoshi-Bold.woff2') format('woff2'),
+         url('Satoshi-Bold.woff') format('woff'),
+         url('Satoshi-Bold.ttf') format('truetype');
+         font-weight: 700;
+         font-display: swap;
+         font-style: normal;
+}
+
 .satoshi-400 {
     font-family: 'Satoshi-Regular';
     font-style: normal;
@@ -36,6 +46,15 @@
     font-size: 16px;
     line-height: 16px;
     color: rgba(10, 15, 13);
+}
+
+.satoshi-700 {
+    font-family: 'Satoshi-Bold';
+    font-style: normal;
+    font-weight: 700;
+    color: #0A0F0D;
+    font-size: 34px;
+    line-height: 34px;
 }
 
 body {
@@ -635,7 +654,6 @@ body {
     position: absolute;
     left: 135px;
     top: 3750px;
-    border: 1px solid red;
 }
 
 .services-02-text-and-button {
@@ -690,14 +708,121 @@ body {
     justify-content: space-between;
 }
 
-.services-02-cards div {
-    background: #D5E9F8;
-}
-
-.services-02-cards div:first-child {
+.services-02-cards .cards-style:first-child {
     background: #C5B6F0;
 }
 
-.services-02-cards div:last-child {
+.services-02-cards .cards-style:last-child {
     background: #EBFFDB;
+}
+
+.services-02-cards .cards-style {
+    background: #D5E9F8;
+}
+
+.img-container {
+    width: 370px;
+    height: 42px;
+    margin-top: 32px;
+    margin-bottom: 127px;
+    display: flex;
+}
+
+.img-container img:first-child {
+    margin-left: 32px;
+}
+
+.img-container img {
+    margin-left: 20px;
+}
+
+.first-text-container {
+    width: 306px;
+    height: 189px;
+    margin: 0 32px 40px 32px;
+    padding: 0;
+}
+
+.first-text-container .satoshi-700 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 35px;
+}
+
+.first-text-container .satoshi-500 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 18px;
+}
+
+.first-text-container .satoshi-400 {
+    margin: 0;
+    padding: 0;
+    border-top: 2px solid #0A0F0D;
+    padding-top: 12px;
+}
+
+.text-container .satoshi-500, .first-text-container .satoshi-500 {
+    font-size: 34px;
+    line-height: 34px;
+    color: #0A0F0D;
+}
+
+.text-container .satoshi-400, .first-text-container .satoshi-400 {
+    font-size: 18px;
+    line-height: 28px;
+    color: #0A0F0D;
+}
+
+.text-container {
+    width: 286px;
+    height: 103px;
+    margin: 211px 52px 42px 32px;
+}
+
+.text-container .satoshi-700 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 35px;
+}
+
+.text-container .satoshi-500 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Начало редактирования Testimonials Section */
+
+.testimonials-section {
+    position: absolute;
+    width: 1440px;
+    height: 1058px;
+    left: 0px;
+    top: 4600px;
+    background-color: #FFFBA0;
+}
+
+.testimonials-section h2 {
+    font-size: 54px;
+    line-height: 54px;
+    color: #0A0F0D;
+    margin: 80px 505px 70px 506px;
+}
+
+.testimonials-section .cards-container {
+    width: 1170px;
+    height: 774px;
+    border: 1px solid #000;
+    margin: 0 135px 80px 135px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cards-style {
+    width: 370px;
+    height: 372px;
+    background: #FFFFFF;
+    border: 1px solid #0A0F0D;
+    border-radius: 14px;
 }
