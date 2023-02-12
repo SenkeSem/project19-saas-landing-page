@@ -10,6 +10,16 @@
          font-style: normal;
   }
 
+  @font-face {
+    font-family: 'Satoshi-Italic';
+    src: url('Satoshi-Italic.woff2') format('woff2'),
+         url('Satoshi-Italic.woff') format('woff'),
+         url('Satoshi-Italic.ttf') format('truetype');
+         font-weight: 400;
+         font-display: swap;
+         font-style: italic;
+}
+
 @font-face {
     font-family: 'Satoshi-Medium';
     src: url('Satoshi-Medium.woff2') format('woff2'),
@@ -37,6 +47,15 @@
     font-size: 16px;
     line-height: 16px;
     color: rgba(10, 15, 13);
+}
+
+.satoshi-400-italic {
+    font-family: 'Satoshi-Italic';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(10, 15, 13, 0.8);
 }
 
 .satoshi-500 {
@@ -812,7 +831,6 @@ body {
 .testimonials-section .cards-container {
     width: 1170px;
     height: 774px;
-    border: 1px solid #000;
     margin: 0 135px 80px 135px;
     display: flex;
     flex-wrap: wrap;
@@ -825,4 +843,73 @@ body {
     background: #FFFFFF;
     border: 1px solid #0A0F0D;
     border-radius: 14px;
+    margin-bottom: 28px;
+}
+
+.star-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    height: 26px;
+    margin: 30px 190px 20px 30px;
+}
+
+.cards-style .text-block {
+    width: 306px;
+    height: 141px;
+    margin: 0 34px 0 30px;
+}
+
+.cards-style .name-block {
+    margin-left: 30px;
+    width: auto;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cards-style .nik-sharma {
+    width: 122px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #0A0F0D;
+    margin: 0;
+    padding: 0;
+}
+
+.cards-style .ceo {
+    width: 149px;
+    height: 16px;
+    font-size: 16px;
+    line-height: 16px;
+    color: rgba(10, 15, 13, 0.8);
+    margin: 0;
+    padding: 0;
+}
+
+.logo-and-photo-block {
+    width: 306px;
+    height: 48px;
+    border-top: 1px solid rgba(10, 15, 13, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 16px 34px 24px 30px;
+    padding-top: 19px;
+}
+
+.big-photo {
+    width: 310px;
+    height: 235px;
+    margin: 28px 30px 0 30px;
+}
+
+.big-photo img[alt="play"] {
+    position: absolute;
+    left: 0;
+    top: 0;
 }
