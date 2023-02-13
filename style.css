@@ -910,6 +910,55 @@ body {
 
 .big-photo img[alt="play"] {
     position: absolute;
-    left: 0;
-    top: 0;
+    right: 179px;
+    top: 393px;
+}
+
+.big-photo img[alt="play2"] {
+    position: absolute;
+    right: 579px;
+    top: 795px;
+}
+
+/* Начало редактирования FAQs-section*/
+
+.FAQs-section {
+    position: absolute;
+    width: 1440px;
+    height: 848px;
+    left: 0px;
+    top: 5658px;
+    background: #0A0F0D;
+}
+
+.FAQs-section h2 {
+    font-size: 54px;
+    line-height: 54px;
+    color: #FFFFFF;
+    width: 128px;
+    height: 54px;
+    margin: 80px 1177px 70px 135px;
+}
+
+.FAQs-block-close {
+    background: #1A1A1A;
+    border: 1px solid #FFFFFF;
+    width: 1170px;
+    height: 98px;
+    margin: 0 135px 30px 135px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.FAQs-block-close img {
+    margin-right: 46px;
+}
+
+.FAQs-block-close h3 {
+    margin: 0 0 0 46px;
+    padding: 0;
+    color: #FFFFFF;
+    font-size: 34px;
+    line-height: 34px;
 }
