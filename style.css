@@ -1004,8 +1004,106 @@ body {
     background: #EBFFDB;
 }
 
-.footer-section img {
+.footer-section img[alt="Logo"] {
     position: absolute;
     left: 135px;
     top: 70px;
+}
+
+.join-our-newsletter {
+    width: 172px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    color: rgba(10, 15, 13, 0.8);
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 135px;
+    top: 194px;
+}
+
+.footer-section input {
+    width: 412px;
+    height: 66px;
+    position: absolute;
+    left: 135px;
+    top: 244px;
+    background: #EBFFDB;
+    border: 1px solid rgba(10, 15, 13, 0.8);
+    border-radius: 10px;
+    padding: 0 0 0 28px;
+}
+
+.footer-section input::placeholder {
+    font-size: 16px;
+    line-height: 16px;
+    margin: 25px 0 25px 28px;
+}
+
+.footer-section img[alt="Group51"] {
+    position: absolute;
+    left: 517px;
+    top: 252px;
+}
+
+.products-table {
+    position: absolute;
+    width: 133px;
+    height: 184px;
+    left: 716px;
+    top: 90px;
+}
+
+.products-table h5, .products-table p {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    line-height: 20px;
+    color: #0A0F0D;
+}
+
+.products-table h5 {
+    margin-bottom: 30px;
+}
+
+.products-table p {
+    margin-top: 18px;
+}
+
+.resources-table {
+    position: absolute;
+    width: 136px;
+    height: 214px;
+    left: 934px;
+    top: 90px;
+}
+
+.company-table {
+    position: absolute;
+    width: 146px;
+    height: 142px;
+    left: 1154px;
+    top: 90px;
+}
+
+.follow-us-section {
+    position: absolute;
+    width: 1170px;
+    height: 66px;
+    left: 135px;
+    top: 404px;
+    border-top: 1px solid rgba(10, 15, 13, 0.8);
+    border-bottom: 1px solid rgba(10, 15, 13, 0.8);
+}
+
+.copyright-block {
+    position: absolute;
+    width: 134px;
+    height: 16px;
+    left: 652px;
+    top: 508px;
+    font-size: 16px;
+    line-height: 16px;
+    color: rgba(10, 15, 13, 0.8);
 }
