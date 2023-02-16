@@ -1095,6 +1095,9 @@ body {
     top: 404px;
     border-top: 1px solid rgba(10, 15, 13, 0.8);
     border-bottom: 1px solid rgba(10, 15, 13, 0.8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .copyright-block {
@@ -1106,4 +1109,35 @@ body {
     font-size: 16px;
     line-height: 16px;
     color: rgba(10, 15, 13, 0.8);
+}
+
+.terms-and-conditions {
+    width: 441px;
+    height: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.terms-and-conditions p {
+    font-size: 16px;
+    line-height: 16px;
+    color: #0A0F0D;
+    padding: 0;
+    margin: 0;
+}
+
+.brands-box {
+    width: 236px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brands-box p {
+    font-size: 16px;
+    line-height: 16px;
+    color: #0A0F0D;
+    margin-right: 16px;
 }
