@@ -758,7 +758,6 @@ body {
     width: 306px;
     height: 189px;
     margin: 0 32px 40px 32px;
-    padding: 0;
 }
 
 .first-text-container .satoshi-700 {
@@ -836,7 +835,7 @@ body {
     justify-content: space-between;
 }
 
-.cards-style {
+.testimonials-section .cards-style {
     width: 370px;
     height: 372px;
     background: #FFFFFF;
